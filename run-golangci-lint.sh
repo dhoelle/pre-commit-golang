@@ -1,2 +1,2 @@
 #!/bin/sh
-exec golangci-lint run "$@"
+exec gobin -m -run github.com/golangci/golangci-lint/cmd/golangci-lint run "$@"
