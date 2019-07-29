@@ -61,11 +61,11 @@
     entry: run-go-build.sh
     files: '\.go$'
     language: 'script'
-    description: "Runs `go mod vendor`, requires Go > 1.11"
+    description: "Runs `go build`, requires golang"
 -   id: go-mod-vendor
-    name: 'go-mod-vendor'
+    name: 'go mod vendor'
     entry: run-go-mod-vendor.sh
     types: [go]
     require_serial: true
     language: 'script'
-    description: "Runs `go build`, requires golang"
+    description: "Runs `go mod vendor`, requires Go > 1.11"
