@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-exec go mod vendor
+go mod vendor
